@@ -1,0 +1,43 @@
+.wrapper {
+  width: 75%;
+  padding: 0 30px;
+}
+
+.videoFrame {
+  height: 62vh;
+  width: 100%;
+  display: block;
+  border: 0;
+}
+
+.views {
+  display: inline-block;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.iconWrapper {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 28%;
+}
+
+.shortInfo {
+  position: relative;
+}
+
+.icons > i {
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.details {
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.shortInfo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

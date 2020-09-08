@@ -1,0 +1,33 @@
+.VideoCard {
+  /* width: calc(100% - 16px);
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #ccc;
+  margin: 8px;
+  text-decoration: none; */
+
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #ccc;
+  text-decoration: none;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.Thumbnail {
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.Title {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+}
+
+.VideoCard:last-of-type {
+  margin-bottom: 0;
+}

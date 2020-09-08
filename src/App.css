@@ -1,0 +1,10 @@
+.MainContainer {
+  width: 85%;
+  margin: 2% auto;
+  background-color: #fff;
+  display: flex;
+}
+
+.blue {
+  background-color: #54c3ef;
+}
