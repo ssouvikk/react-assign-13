@@ -1,7 +1,3 @@
-live link for the project : https://video-player-95ec5.firebaseapp.com/
-https://video-player-95ec5.firebaseapp.com/           https://video-player-95ec5.firebaseapp.com/               https://video-player-95ec5.firebaseapp.com/                     https://video-player-95ec5.firebaseapp.com/
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

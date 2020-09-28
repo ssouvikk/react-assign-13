@@ -12,6 +12,7 @@
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
+  border: 2px solid #fff;
 }
 
 .Thumbnail {
@@ -30,4 +31,8 @@
 
 .VideoCard:last-of-type {
   margin-bottom: 0;
+}
+
+.active {
+  border: 2px solid rgb(211, 198, 10);
 }

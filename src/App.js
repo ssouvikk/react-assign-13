@@ -1,32 +1,19 @@
 import React, { Component } from "react";
 import "./App.css";
-import VideoDetails from "./VideoDetails/VideoDetails";
-import VideoList from "./VideoList/VideoList";
-import { Route } from "react-router";
+import { Route, Redirect } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import MainPage from "./MainPage/MainPage";
 
 export default class App extends Component {
-  state = {
-    activatedId: 1,
-  };
 
-  render() {
-    return (
-      <BrowserRouter>
-        <div className="blue">
-          <div className="MainContainer">
-            <Route
-              path={"/videoWatch/:id"}
-              render={(props) => <VideoDetails {...props} />}
-            />
-            <Route
-              path={"/videoWatch/:id"}
-              // component={VideoList}
-              render={(props) => <VideoList {...props} />}
-            />
-          </div>
-        </div>
-      </BrowserRouter>
-    );
-  }
+	render() {
+		return (
+			<BrowserRouter>
+				<div className="blue">
+					<Route exact path="/" render={() => <Redirect to="/videoWatch/1" />} />
+					<Route path={"/videoWatch/:id"} component={MainPage} />
+				</div>
+			</BrowserRouter>
+		);
+	}
 }
