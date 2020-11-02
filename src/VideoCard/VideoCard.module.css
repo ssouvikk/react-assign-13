@@ -36,3 +36,11 @@
 .active {
   border: 2px solid rgb(211, 198, 10);
 }
+
+
+@media screen and (max-width: 700px) {
+  .VideoCard{
+    width: 95%;
+    max-width: 27rem;
+  }
+}

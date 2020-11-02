@@ -1,5 +1,5 @@
 .wrapper {
-  width: 75%;
+  width: 67%;
   padding: 0 30px;
 }
 
@@ -40,4 +40,33 @@
 
 .shortInfo {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper{
+      width: 100%;
+      padding: 0 10px;
+    }
+
+    .videoFrame{
+      height: 16rem;
+    }
+
+    .views{
+      font-size: 16px;
+    }
+
+    .icons i{
+      font-size: 18px;
+    }
+
+    .wrapper h1{
+      font-size: 1.7rem;
+      margin: 10px 0;
+    }
+
+    .details{
+      letter-spacing: 0;
+      font-size: 16px;
+    }
 }
